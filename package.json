@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "description": "SaaS multi-tenant para escritórios de advocacia com agentes GPT-5, Next.js, Supabase e Drizzle.",
-  "packageManager": "pnpm@9",
+  "packageManager": "pnpm@10",
   "engines": {
     "node": ">=18.18.0"
   },
