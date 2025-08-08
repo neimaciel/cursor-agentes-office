@@ -1,0 +1,32 @@
+{
+  "name": "cursor-agentes-office",
+  "private": true,
+  "version": "0.1.0",
+  "description": "SaaS multi-tenant para escritórios de advocacia com agentes GPT-5, Next.js, Supabase e Drizzle.",
+  "packageManager": "pnpm@9",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @apps/web dev",
+    "build": "pnpm -r build",
+    "start": "pnpm --filter @apps/web start",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "format": "prettier -w .",
+    "typecheck": "pnpm -r typecheck",
+    "playwright": "pnpm --filter @apps/web exec playwright test"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/cursor-agentes-office.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}

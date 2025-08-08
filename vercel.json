@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "buildCommand": "pnpm install --frozen-lockfile && pnpm -r build",
+  "outputDirectory": "apps/web/.next",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "framework": "nextjs",
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "",
+    "NEXT_PUBLIC_SUPABASE_FUNCTION_URL": "",
+    "NEXT_PUBLIC_DEMO_ORG_ID": "demo-org"
+  }
+}
+
